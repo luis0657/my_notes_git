@@ -37,3 +37,5 @@ git brach %%%%verify branch we are currently'
 git checkout -b branch_name  %%%% Creates a new branch
 
 git checkout main %%%%Changes to the main branch
+
+git merge brach_name
