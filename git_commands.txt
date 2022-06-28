@@ -10,7 +10,7 @@ ls:  see folder structure
 pwd: see the current path 
 
 git status  %Show the status of the files in the repository
-git status -s %Shows specific details about each file
+git status -s %Shows short details about each file
 
 
 git init % start tracking a folder with git (new repository)
@@ -24,3 +24,5 @@ mv: Changes the name of a file
 
 
 .gitignore: "add the files or paths to ignore in the repository"
+
+git diff "shows the difference between files" "Q to exit"
