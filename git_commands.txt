@@ -31,7 +31,9 @@ git log --oneline 'Short description about the changes'
 git log  "Shows user, mail and time when the changes were made"
 
 
-git brach 'verify branch we are currently'
+git brach %%%%verify branch we are currently'
 
 
-git checkout -b branch_name
+git checkout -b branch_name  %%%% Creates a new branch
+
+git checkout main %%%%Changes to the main branch
