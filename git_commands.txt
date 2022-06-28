@@ -10,12 +10,14 @@ ls:  see folder structure
 pwd: see the current path 
 
 git status  %Show the status of the files in the repository
+git status -s %Shows specific details about each file
+
+
 git init % start tracking a folder with git (new repository)
 git add "file_name" % start tracking a file even for deleted files or modified files. (changes over the files)
 git restore --staged "file"
 
 git commit -m "changes" % changes to the main file wiht a message
-
 git rm "file"
 
 mv: Changes the name of a file
