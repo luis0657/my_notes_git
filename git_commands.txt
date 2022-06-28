@@ -39,3 +39,9 @@ git checkout -b branch_name  %%%% Creates a new branch
 git checkout main %%%%Changes to the main branch
 
 git merge brach_name
+
+git remote add origin
+
+git push -u origin master
+
+git push
