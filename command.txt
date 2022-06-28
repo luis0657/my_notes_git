@@ -1,0 +1,18 @@
+git --version  %To see the current version of git
+git config --global user.name "Pablo Garcia"   %add user name
+git config --global user.email pablo0657@hotmail.com  %add mail 
+git config --global core.editor "code --wait"     %set VS code as main 
+editor
+git config --global -e  %To see the config global file
+git config -h % See git configuration
+
+
+ls:  see folder structure
+pwd: see the current path 
+
+git status  %Show the status of the files in the repository
+git init % start tracking a folder with git (new repository)
+git add "file_name" % start tracking a file even for deleted files 
+git commit "file_name" % changes to the main file
+
+
