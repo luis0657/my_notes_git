@@ -27,4 +27,5 @@ mv: Changes the name of a file
 
 git diff "shows the difference between files" "Q to exit"
 
-git log --oneline
+git log --oneline 'Short description about the changes'
+git log  "Shows user, mail and time when the changes were made"
