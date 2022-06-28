@@ -19,3 +19,6 @@ git commit -m "changes" % changes to the main file wiht a message
 git rm "file"
 
 mv: Changes the name of a file
+
+
+.gitignore: "add the files or paths to ignore in the repository"
