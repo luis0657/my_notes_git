@@ -6,13 +6,12 @@ editor
 git config --global -e  %To see the config global file
 git config -h % See git configuration
 
-
 ls:  see folder structure
 pwd: see the current path 
 
 git status  %Show the status of the files in the repository
 git init % start tracking a folder with git (new repository)
-git add "file_name" % start tracking a file even for deleted files 
+git add "file_name" % start tracking a file even for deleted files or modified files. (changes over the files)
 git commit "file_name" % changes to the main file
 
 
