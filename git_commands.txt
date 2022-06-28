@@ -26,3 +26,5 @@ mv: Changes the name of a file
 .gitignore: "add the files or paths to ignore in the repository"
 
 git diff "shows the difference between files" "Q to exit"
+
+git log --oneline
