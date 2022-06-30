@@ -1,3 +1,6 @@
+
+%%%%%%%%%%% Global Configuration%%%%%%%%%%%%
+
 git --version  %To see the current version of git
 git config --global user.name "Pablo Garcia"   %add user name
 git config --global user.email pablo0657@hotmail.com  %add mail 
@@ -6,8 +9,15 @@ editor
 git config --global -e  %To see the config global file
 git config -h % See git configuration
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 ls:  see folder structure
 pwd: see the current path 
+
+%%%%%%%%%%%% Local Folder Commands %%%%%%%%%%%%%%%%%%
+
 
 git status  %Show the status of the files in the repository
 git status -s %Shows short details about each file
@@ -25,11 +35,14 @@ mv: Changes the name of a file
 
 .gitignore: "add the files or paths to ignore in the repository"
 
-git diff "shows the difference between files" "Q to exit"
+git diff "shows the difference between files" "Q to exit"ß
 
 git log --oneline 'Short description about the changes'
 git log  "Shows user, mail and time when the changes were made"
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% Working wiht branches
 
 git brach %%%%verify branch we are currently'
 
@@ -39,6 +52,9 @@ git checkout -b branch_name  %%%% Creates a new branch
 git checkout main %%%%Changes to the main branch
 
 git merge brach_name
+
+
+%%%%%%% Working with github %%%%%%%%%%%%%%%%
 
 git remote add origin
 
