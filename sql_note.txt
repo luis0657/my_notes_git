@@ -1,1 +1,75 @@
 %%%% Notes to add most used SQL querys
+
+
+1. SELECT   (What column or some aritmethics)
+
+2. FROM    (What table) 
+
+3. INSERT INTO (Add info to the table in the database)
+
+4. VALUES  (VALUES)
+
+UPDATE (TABLE)
+SET (COLUMN)
+WHERE (ROW)
+
+CREATE TABLE IF NOT EXISTS
+
+DROP TABLE IF EXISTS
+
+3. WHERE
+
+
+DISTINCT
+
+
+SUBSTR()
+
+
+LENGTH()
+
+TRIM ()
+
+LIMIT 
+
+
+WHERE   compression_ratio <> 70;  (skips this row)
+
+WHERE
+make = "dodge"
+AND fuel_type = "gas"
+AND body_style = "sedan";
+
+
+SELECT
+  MIN(length) AS min_length,
+  MAX(length) AS max_length
+
+  CAST : (One data type to another data type)
+
+
+ORDER BY
+  purchase_price DESC
+
+
+  SELECT 
+  CAST(purchase_price AS FLOAT64)
+
+FROM `singular-ray-354912.customer_data.customer_purchase`
+
+ORDER BY
+  CAST(purchase_price AS FLOAT64) DESC
+
+
+  SELECT CAST(date AS DATE) AS date_only,
+purchase_price
+
+FROM `singular-ray-354912.customer_data.customer_purchase`
+
+WHERE 
+  date BETWEEN '2020-12-01' AND '2020-12-31'
+
+
+SELECT 
+COALESCE(product, product_code) AS product_info
+FROM `singular-ray-354912.customer_data.customer_purchase`
