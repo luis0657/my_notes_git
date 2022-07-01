@@ -49,7 +49,7 @@ SELECT
 
 
 ORDER BY
-  purchase_price DESC
+  purchase_price (Default is ASC oder (menor a mayor))
 
 
   SELECT 
@@ -80,3 +80,24 @@ FROM `singular-ray-354912.customer_data.customer_purchase`
 ASC menor a mayor
 
 DESC mayor a menor
+
+
+CONCAT
+
+
+GROUP BY
+
+
+
+SELECT  
+emp.name as employee_name,
+emp.role as employee_role,
+dep.name as department_name
+
+
+FROM `singular-ray-354912.employee_data.employees` as emp
+
+full outer join
+`singular-ray-354912.employee_data.departments` as dep
+ON
+emp.department_id = dep.department_id
