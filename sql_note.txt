@@ -73,3 +73,10 @@ WHERE
 SELECT 
 COALESCE(product, product_code) AS product_info
 FROM `singular-ray-354912.customer_data.customer_purchase`
+
+
+
+
+ASC menor a mayor
+
+DESC mayor a menor
