@@ -7,7 +7,7 @@ git config --global user.email pablo0657@hotmail.com  %add mail
 git config --global core.editor "code --wait"     %set VS code as main 
 editor
 git config --global -e  %To see the config global file
-git config -h % See git configuration
+git config -l % See git configuration
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
